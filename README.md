@@ -1,4 +1,6 @@
+<div style="display: flex;justify-content: center;">
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=&size=30&pause=1000&color=9765F7&center=%E7%9C%9F&vCenter=%E7%9C%9F&repeat=%E7%9C%9F&random=%E5%81%87&width=935&lines=%E6%81%AD%E5%96%9C%E5%BC%80%E5%90%AF%E5%AE%9D%E8%97%8F%EF%BC%9Atype-%E4%BA%91%E7%9A%84%E4%BB%93%E5%BA%93)](https://git.io/typing-svg)
+</div>
 
 <h2 height="200px" align="center">🎉 About Me</h2>
 

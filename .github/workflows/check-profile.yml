@@ -1,0 +1,69 @@
+name: Check profile
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 4 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate README assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check README image URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY' > image-urls.txt
+          import re
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          tags = re.findall(r"<(?:img|source)\b[^>]*>", readme, flags=re.I)
+          urls = set()
+          for tag in tags:
+              for match in re.finditer(r'(?:src|srcset)="([^"]+)"', tag, flags=re.I):
+                  for candidate in match.group(1).split(","):
+                      url = candidate.strip().split(" ")[0]
+                      if url.startswith("https://"):
+                          urls.add(url.replace("&amp;", "&"))
+          print("\n".join(sorted(urls)))
+          PY
+          test -s image-urls.txt
+          failed=0
+          while IFS= read -r url; do
+            [ -z "$url" ] && continue
+            echo "Checking $url"
+            if ! curl --fail --silent --show-error --location --max-time 20 \
+              --retry 3 --retry-delay 5 --retry-all-errors \
+              --output /dev/null "$url"; then
+              echo "::error::Unavailable image: $url"
+              failed=1
+            fi
+          done < image-urls.txt
+          exit "$failed"
+
+      - name: Check text files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          files = ["README.md", "CONTRIBUTING.md", "LICENSE", ".gitignore"]
+          for name in files:
+              data = Path(name).read_bytes()
+              assert data, f"{name} is empty"
+              assert data.endswith(b"\n"), f"{name} needs a trailing newline"
+              data.decode("utf-8")
+              print(f"OK {name}")
+          PY

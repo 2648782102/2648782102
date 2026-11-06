@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 项目问题与建议
+    url: https://github.com/2648782102/LanZe/issues
+    about: 关于兰泽诗词或其他具体项目，请到对应仓库提交 Issue。
+  - name: 浏览全部公开仓库
+    url: https://github.com/2648782102?tab=repositories
+    about: 先找到相关项目，再使用该项目自己的 Issue 模板或讨论区。

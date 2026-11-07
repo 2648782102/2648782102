@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/2648782102?tab=followers"><img src="https://img.shields.io/github/followers/2648782102?label=Followers&style=flat-square&color=2F6F6A&labelColor=213B3A" alt="GitHub 关注者"></a>
-  <a href="https://github.com/2648782102?tab=repositories"><img src="https://img.shields.io/badge/Public%20repos-16-2F6F6A?style=flat-square&logo=github&labelColor=213B3A" alt="公开仓库数量"></a>
+  <a href="https://github.com/2648782102?tab=repositories"><img src="https://img.shields.io/badge/Public%20repos-18-2F6F6A?style=flat-square&logo=github&labelColor=213B3A" alt="公开仓库数量"></a>
   <a href="https://github.com/2648782102/LanZe"><img src="https://img.shields.io/github/stars/2648782102/LanZe?label=LanZe%20stars&style=flat-square&color=2F6F6A&labelColor=213B3A" alt="LanZe 的 Star 数"></a>
 </p>
 
@@ -17,7 +17,7 @@
 ## 30 秒了解我
 
 - **在做什么**：把抽象的念头做成能点开、能运行、能继续改的小项目；近期集中在前端界面与 AI 工具链。
-- **现在看哪里**：先从下面两个主项目开始；其余仓库多为历史原型、实验或第三方项目副本。
+- **现在看哪里**：先读下方「精选项目」与「正在成型」；其余仓库多为历史原型、实验或第三方项目副本。
 - **怎么参与**：欢迎在对应仓库开 Issue，附上复现步骤、期望效果或最小改动建议。
 - **当前状态**：这是一个持续整理中的个人作品集；公开 Star、关注与外部贡献都还很少。
 
@@ -32,6 +32,15 @@
 | [3D 圣诞树](https://github.com/2648782102/shengDanShu-s) | 不依赖构建环境的浏览器小场景。 | 直接打开 `index.html` 或用静态服务器托管 | HTML · CSS · JavaScript |
 
 > `ai-draw-mcp` 的 npm 包目前仍是 `0.2.0`，仓库源码与 GitHub Release 已到 `0.3.4`。想体验当前版本，请暂用「从源码安装」；后续发布同步后再切回 npm。
+
+## 正在成型
+
+| 项目 | 定位 | 入口 |
+|---|---|---|
+| [Conchbase](https://github.com/2648782102/conchbase) | 本地优先、可被 CLI / 桌面端 / 第三方客户端调用的个人 Agent Runtime。 | [README](https://github.com/2648782102/conchbase#readme) · [CI](https://github.com/2648782102/conchbase/actions) |
+| [Pagurus](https://github.com/2648782102/pagurus) | Conchbase 的本地控制与检查台。 | [README](https://github.com/2648782102/pagurus#readme) · [CI](https://github.com/2648782102/pagurus/actions) |
+
+> 这两个项目还在早期迭代，暂不把它们当作已发布产品；先看 README、roadmap 与 CI 判断当前完成度。
 
 ---
 

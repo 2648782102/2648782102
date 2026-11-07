@@ -4,62 +4,73 @@
 
 <h1 align="center">你好，我是 type_云</h1>
 
-<p align="center">我做前端，也做 AI 开发工具。最近在探索：代码画布、个人 Agent 和它的控制台。</p>
+<p align="center">我做前端，也做 AI 开发工具。<br>最近在做代码画布、个人 Agent，以及它的控制台。</p>
 
 <p align="center">
   <a href="https://github.com/2648782102?tab=followers"><img src="https://img.shields.io/github/followers/2648782102?label=关注者&style=flat-square&color=39756D&labelColor=183B3A" alt="GitHub 关注者"></a>
   <a href="https://github.com/2648782102?tab=repositories"><img src="https://img.shields.io/badge/公开仓库-18-39756D?style=flat-square&logo=github&labelColor=183B3A" alt="公开仓库数量"></a>
-  <img src="https://img.shields.io/badge/主要方向-Frontend%20%26%20AI%20tools-39756D?style=flat-square&labelColor=183B3A" alt="主要方向：前端与 AI 工具">
 </p>
 
 ---
 
-## 最近在做
+## 01 / AI Draw MCP
+
+**把代码库放进一张 AI 可读、可编辑的画布。**
+
+人可以补充图上的信息、查看代码上下文；涉及项目文件的改动，会先生成 diff 供人审核。
+
+<p align="center">
+  <a href="https://github.com/2648782102/ai-draw-mcp">
+    <img src="https://raw.githubusercontent.com/2648782102/ai-draw-mcp/master/docs/restrained-workspace-panel.png" alt="AI Draw MCP 代码画布预览" width="92%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/2648782102/ai-draw-mcp">浏览项目</a>　·　
+  <a href="https://github.com/2648782102/ai-draw-mcp#readme">快速开始</a>　·　
+  <a href="https://github.com/2648782102/ai-draw-mcp/actions">CI</a>
+</p>
+
+<sub>TypeScript · MCP · 本地运行</sub>
+
+---
+
+## 02 / 正在搭建
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/2648782102/ai-draw-mcp">AI Draw MCP</a></h3>
-      <p>把代码库整理成可视化画布，供 AI 读取和操作。人可以在图上补充信息、检查改动，并在写入前审核 diff。</p>
-      <p><strong>技术：</strong>TypeScript · MCP</p>
-      <p><a href="https://github.com/2648782102/ai-draw-mcp/releases/tag/v0.3.4">Release v0.3.4</a> · <a href="https://github.com/2648782102/ai-draw-mcp/actions">CI</a> · <a href="https://github.com/2648782102/ai-draw-mcp#readme">快速开始</a></p>
+    <td width="50%" valign="top">
+      <h3>⌘ &nbsp;<a href="https://github.com/2648782102/conchbase">Conchbase</a></h3>
+      <p>个人 Agent Runtime 的早期原型。目前提供本机健康检查接口，正在搭建运行时和 API 边界。</p>
+      <p><sub>Node.js · TypeScript</sub></p>
+      <a href="https://github.com/2648782102/conchbase#readme">项目说明</a>　·　
+      <a href="https://github.com/2648782102/conchbase/actions">CI</a>
     </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/2648782102/conchbase">Conchbase</a></h3>
-      <p>个人 Agent Runtime 的早期原型，目前提供本机健康检查接口，正在搭建运行时和 API 边界。</p>
-      <p><strong>技术：</strong>Node.js · TypeScript</p>
-      <p><a href="https://github.com/2648782102/conchbase#readme">项目说明</a> · <a href="https://github.com/2648782102/conchbase/actions">CI</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/2648782102/pagurus">Pagurus</a></h3>
-      <p>Conchbase 的本地控制台原型，目前可连接 Runtime 并显示连接状态；配置流程还在规划中。</p>
-      <p><strong>技术：</strong>Vite · Node.js</p>
-      <p><a href="https://github.com/2648782102/pagurus#readme">项目说明</a> · <a href="https://github.com/2648782102/pagurus/actions">CI</a></p>
+    <td width="50%" valign="top">
+      <h3>◫ &nbsp;<a href="https://github.com/2648782102/pagurus">Pagurus</a></h3>
+      <p>Conchbase 的本地控制台原型。目前可连接 Runtime 并显示连接状态，配置流程仍在规划中。</p>
+      <p><sub>Vite · Node.js</sub></p>
+      <a href="https://github.com/2648782102/pagurus#readme">项目说明</a>　·　
+      <a href="https://github.com/2648782102/pagurus/actions">CI</a>
     </td>
   </tr>
 </table>
 
-## 技术方向
+---
 
-`Vue` · `TypeScript` · `JavaScript` · `Node.js` · `Vite` · `MCP`
+## 常用工具
 
-平时主要写界面和交互，也会做本地工具、自动化与小型 Web 项目。
+`Vue`　`TypeScript`　`JavaScript`　`Node.js`　`Vite`　`MCP`
 
-## 活动
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/39756D/2648782102">
-  <img src="https://ghchart.rshah.org/6D9D91/2648782102" alt="GitHub 贡献记录" width="100%">
-</picture>
+## 最近的提交
 
 <p align="center">
-  <a href="https://github.com/2648782102/ai-draw-mcp"><img src="https://img.shields.io/github/stars/2648782102/ai-draw-mcp?label=AI%20Draw%20MCP%20stars&style=flat-square&color=6D9D91&labelColor=183B3A" alt="AI Draw MCP stars"></a>
-  <a href="https://github.com/2648782102/conchbase"><img src="https://img.shields.io/github/last-commit/2648782102/conchbase?label=Conchbase%20更新&style=flat-square&color=6D9D91&labelColor=183B3A" alt="Conchbase 最近更新"></a>
-  <a href="https://github.com/2648782102/pagurus"><img src="https://img.shields.io/github/last-commit/2648782102/pagurus?label=Pagurus%20更新&style=flat-square&color=6D9D91&labelColor=183B3A" alt="Pagurus 最近更新"></a>
+  <a href="https://github.com/2648782102/conchbase"><img src="https://img.shields.io/github/last-commit/2648782102/conchbase?label=Conchbase&style=flat-square&color=6D9D91&labelColor=183B3A" alt="Conchbase 最近更新"></a>
+  <a href="https://github.com/2648782102/pagurus"><img src="https://img.shields.io/github/last-commit/2648782102/pagurus?label=Pagurus&style=flat-square&color=6D9D91&labelColor=183B3A" alt="Pagurus 最近更新"></a>
 </p>
 
 ## 联系与协作
 
-想聊具体项目、反馈问题或参与开发，可以到对应仓库开 Issue 或提交 Pull Request。请附上复现步骤、预期结果或改动范围，方便一起讨论。
+有想法或发现问题，欢迎到对应仓库开 Issue；如果已经有改动，也欢迎提交 Pull Request。
 
 <p align="center"><sub>谢谢你来看看。</sub></p>

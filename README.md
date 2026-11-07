@@ -4,11 +4,11 @@
 
 <h1 align="center">你好，我是 type_云</h1>
 
-<p align="center">我做前端，也做 AI 开发工具。<br>最近在做代码画布、个人 Agent，以及它的控制台。</p>
+<p align="center">我做前端和 AI 开发工具。<br>最近在做 AI 代码画布、个人 Agent 与控制台。</p>
 
 <p align="center">
-  <a href="https://github.com/2648782102?tab=followers"><img src="https://img.shields.io/github/followers/2648782102?label=关注者&style=flat-square&color=39756D&labelColor=183B3A" alt="GitHub 关注者"></a>
-  <a href="https://github.com/2648782102?tab=repositories"><img src="https://img.shields.io/badge/公开仓库-18-39756D?style=flat-square&logo=github&labelColor=183B3A" alt="公开仓库数量"></a>
+  <a href="https://github.com/2648782102?tab=followers"><img src="https://img.shields.io/github/followers/2648782102?label=Followers&style=flat-square&color=39756D&labelColor=183B3A" alt="GitHub followers"></a>
+  <a href="https://github.com/2648782102?tab=repositories"><img src="https://img.shields.io/badge/Public%20repos-18-39756D?style=flat-square&logo=github&labelColor=183B3A" alt="Public repositories"></a>
 </p>
 
 ---

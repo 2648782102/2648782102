@@ -26,20 +26,18 @@
     </td>
     <td width="33%" valign="top">
       <h3><a href="https://github.com/2648782102/conchbase">Conchbase</a></h3>
-      <p>一个本地运行的个人 Agent Runtime，提供版本化 API，供命令行、桌面端和其他客户端接入。</p>
+      <p>个人 Agent Runtime 的早期原型，目前提供本机健康检查接口，正在搭建运行时和 API 边界。</p>
       <p><strong>技术：</strong>Node.js · TypeScript</p>
       <p><a href="https://github.com/2648782102/conchbase#readme">项目说明</a> · <a href="https://github.com/2648782102/conchbase/actions">CI</a></p>
     </td>
     <td width="33%" valign="top">
       <h3><a href="https://github.com/2648782102/pagurus">Pagurus</a></h3>
-      <p>Conchbase 的本地控制台，用来配置和检查 Agent Runtime。</p>
-      <p><strong>技术：</strong>Web · Node.js</p>
+      <p>Conchbase 的本地控制台原型，目前可连接 Runtime 并显示连接状态；配置流程还在规划中。</p>
+      <p><strong>技术：</strong>Vite · Node.js</p>
       <p><a href="https://github.com/2648782102/pagurus#readme">项目说明</a> · <a href="https://github.com/2648782102/pagurus/actions">CI</a></p>
     </td>
   </tr>
 </table>
-
-> Conchbase 和 Pagurus 仍在开发中。版本、完成情况和运行方式以各自仓库说明为准。
 
 ## 技术方向
 

@@ -52,6 +52,30 @@ jobs:
           done < image-urls.txt
           exit "$failed"
 
+      - name: Check local assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          assets = []
+          for tag in re.findall(r"<(?:img|source)\b[^>]*>", readme, flags=re.I):
+              for match in re.finditer(r'(?:src|srcset)="([^"]+)"', tag, flags=re.I):
+                  url = match.group(1).split(",")[0].strip().split(" ")[0]
+                  if not url.startswith(("https://", "http://", "data:")):
+                      assets.append(url)
+
+          assert assets, "README needs a local banner"
+          for asset in assets:
+              path = Path(asset)
+              assert path.is_file(), f"Missing local asset: {asset}"
+              assert path.stat().st_size > 0, f"Empty local asset: {asset}"
+              print(f"OK {asset}")
+          PY
+
       - name: Check text files
         shell: bash
         run: |

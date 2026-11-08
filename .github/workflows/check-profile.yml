@@ -35,6 +35,9 @@ jobs:
                   for candidate in match.group(1).split(","):
                       url = candidate.strip().split(" ")[0]
                       if url.startswith("https://"):
+                          assert url.startswith(
+                              ("https://github.com/", "https://raw.githubusercontent.com/")
+                          ), f"Use GitHub-hosted images only: {url}"
                           urls.add(url.replace("&amp;", "&"))
           print("\n".join(sorted(urls)))
           PY

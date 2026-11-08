@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="type_云 · 前端与 AI 开发工具">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d1f1d"/>
+      <stop offset="1" stop-color="#173b35"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#7bd6b2"/>
+      <stop offset="1" stop-color="#d6e9c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="240" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="#284e47" stroke-width="1">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M120 0V240M240 0V240M360 0V240M480 0V240M600 0V240M720 0V240M840 0V240M960 0V240M1080 0V240"/>
+  </g>
+  <g transform="translate(72 52)">
+    <rect width="118" height="118" rx="22" fill="#163a35" stroke="#7bd6b2" stroke-width="2"/>
+    <circle cx="39" cy="39" r="9" fill="#d6e9c8"/>
+    <circle cx="79" cy="39" r="9" fill="#7bd6b2"/>
+    <rect x="28" y="68" width="62" height="8" rx="4" fill="#7bd6b2"/>
+    <rect x="28" y="86" width="42" height="8" rx="4" fill="#d6e9c8" opacity=".75"/>
+    <path d="M39 39L79 39L59 68" fill="none" stroke="#d6e9c8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="230" y="100" fill="#f3f7f1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Helvetica,Arial,sans-serif" font-size="52" font-weight="700">type_云</text>
+  <text x="232" y="142" fill="#a9c9bc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Helvetica,Arial,sans-serif" font-size="22">前端 · AI 开发工具 · 本地优先</text>
+  <g transform="translate(232 166)">
+    <rect width="128" height="3" rx="1.5" fill="url(#line)"/>
+    <rect x="140" width="64" height="3" rx="1.5" fill="#7bd6b2" opacity=".5"/>
+    <rect x="216" width="24" height="3" rx="1.5" fill="#d6e9c8" opacity=".35"/>
+  </g>
+  <g fill="none" stroke="#7bd6b2" stroke-width="2" opacity=".85">
+    <path d="M904 42h188v156H904"/>
+    <path d="M944 82h108v76H944"/>
+    <path d="M944 82l108 76M1052 82l-108 76"/>
+  </g>
+  <g fill="#d6e9c8">
+    <circle cx="904" cy="42" r="5"/>
+    <circle cx="1092" cy="198" r="5"/>
+  </g>
+</svg>

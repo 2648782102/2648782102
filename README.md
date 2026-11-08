@@ -1,83 +1,77 @@
+<div align="center">
+  <img src="assets/profile-banner.png" alt="type_云 · 前端与 AI 开发工具" width="100%">
+</div>
+
+## 你好，我是 type_云
+
+做前端，也做 AI 开发工具。这里放三个正在维护的公开项目：一块给人和 AI 共用的画布、一个本地 Agent Runtime，以及它的控制台。
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:183B3A,45:39756D,100:C9DED3&text=type_云&fontColor=F4F7F2&fontSize=44&fontAlignY=40&animation=fadeIn" alt="type_云" width="100%">
-</p>
-
-<h1 align="center">你好，我是 type_云</h1>
-
-<p align="center">我做前端和 AI 开发工具。<br>最近在做 AI 代码画布、个人 Agent 与控制台。</p>
-
-<p align="center">
-  <a href="https://github.com/2648782102?tab=followers"><img src="https://img.shields.io/github/followers/2648782102?label=Followers&style=flat-square&color=39756D&labelColor=183B3A" alt="GitHub followers"></a>
-  <a href="https://github.com/2648782102?tab=repositories"><img src="https://img.shields.io/badge/Public%20repos-18-39756D?style=flat-square&logo=github&labelColor=183B3A" alt="Public repositories"></a>
+  <a href="https://2648782102.github.io/flowli-blog/">Blog</a>　·　
+  <a href="https://github.com/2648782102/Doodle">Doodle</a>　·　
+  <a href="https://github.com/2648782102/conchbase">Conchbase</a>　·　
+  <a href="https://github.com/2648782102/pagurus">Pagurus</a>
 </p>
 
 ---
 
-## 主项目
+## 正在做的项目
 
-### AI Draw MCP
+### [Doodle](https://github.com/2648782102/Doodle)
 
-把代码库变成 AI 能读取和操作的可视化画布。人在图上补充信息、查看上下文；改动先生成 diff，再由人审核。
-
-<p align="center">
-  <a href="https://github.com/2648782102/ai-draw-mcp">
-    <img src="https://raw.githubusercontent.com/2648782102/ai-draw-mcp/master/docs/restrained-workspace-panel.png" alt="AI Draw MCP 代码画布预览" width="92%">
-  </a>
-</p>
+一张人和 AI 共用的本地无限画布。人在画布上画对象、箭头和短留言；AI 通过 MCP 读取画布，再把便签、形状和回应画回同一张图。
 
 <p align="center">
-  <a href="https://github.com/2648782102/ai-draw-mcp">项目主页</a>　·　
-  <a href="https://github.com/2648782102/ai-draw-mcp#readme">快速开始</a>　·　
-  <a href="https://github.com/2648782102/ai-draw-mcp/actions">CI</a>　·　
-  <a href="https://github.com/2648782102/ai-draw-mcp/releases/tag/v0.3.4">v0.3.4</a>
+  <a href="https://github.com/2648782102/Doodle/actions/workflows/ci.yml"><img src="https://github.com/2648782102/Doodle/actions/workflows/ci.yml/badge.svg?branch=master" alt="Doodle CI"></a>
+  <a href="https://github.com/2648782102/Doodle/releases"><img src="https://img.shields.io/github/v/release/2648782102/Doodle?label=release&style=flat-square&color=2f6f61&labelColor=163a35" alt="Doodle latest release"></a>
+  <a href="https://github.com/2648782102/Doodle/blob/master/LICENSE"><img src="https://img.shields.io/github/license/2648782102/Doodle?style=flat-square&color=2f6f61&labelColor=163a35" alt="Doodle license"></a>
+  <a href="https://github.com/2648782102/Doodle/commits/master"><img src="https://img.shields.io/github/last-commit/2648782102/Doodle?branch=master&style=flat-square&color=2f6f61&labelColor=163a35" alt="Doodle last commit"></a>
 </p>
 
-<p align="center"><sub>TypeScript　·　MCP　·　本地运行</sub></p>
+<p align="center"><sub>TypeScript　·　MCP　·　本地运行　·　v0.3.4</sub></p>
+
+<p align="center">
+  <a href="https://github.com/2648782102/Doodle#readme">快速开始</a>　·　
+  <a href="https://github.com/2648782102/Doodle/blob/master/docs/PRODUCT_DIRECTION.md">产品方向</a>　·　
+  <a href="https://github.com/2648782102/Doodle/blob/master/docs/ARCHITECTURE.md">架构</a>　·　
+  <a href="https://github.com/2648782102/Doodle/releases/tag/v0.3.4">当前版本</a>
+</p>
 
 ---
-
-## 也在做
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/2648782102/conchbase">Conchbase</a></h3>
-      <p>个人 Agent Runtime 的早期原型。目前提供本机健康检查接口，正在搭建运行时和 API 边界。</p>
-      <sub>Node.js · TypeScript</sub>
-      <p><a href="https://github.com/2648782102/conchbase#readme">项目说明</a>　·　<a href="https://github.com/2648782102/conchbase/actions">CI</a></p>
+      <p>本地 Agent Runtime：管理任务状态、流式事件、取消与重试，并通过版本化 API 给客户端使用。当前提供 v1 模型任务和 v2 有界组合执行。</p>
+      <p>
+        <a href="https://github.com/2648782102/conchbase/actions/workflows/ci.yml"><img src="https://github.com/2648782102/conchbase/actions/workflows/ci.yml/badge.svg?branch=main" alt="Conchbase CI"></a>
+        <a href="https://github.com/2648782102/conchbase/commits/main"><img src="https://img.shields.io/github/last-commit/2648782102/conchbase?style=flat-square&color=2f6f61&labelColor=163a35" alt="Conchbase last commit"></a>
+      </p>
+      <p><sub>Node.js 24+　·　TypeScript　·　SQLite</sub></p>
+      <p><a href="https://github.com/2648782102/conchbase#readme">项目说明</a>　·　<a href="https://github.com/2648782102/conchbase/blob/main/docs/API.md">API</a>　·　<a href="https://github.com/2648782102/conchbase/blob/main/docs/ARCHITECTURE.md">架构</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/2648782102/pagurus">Pagurus</a></h3>
-      <p>Conchbase 的本地控制台原型。目前可连接 Runtime 并显示连接状态，配置流程仍在规划中。</p>
-      <sub>Vite · Node.js</sub>
-      <p><a href="https://github.com/2648782102/pagurus#readme">项目说明</a>　·　<a href="https://github.com/2648782102/pagurus/actions">CI</a></p>
+      <p>Conchbase 的本地控制台。通过 Runtime API 查看连接状态、选择模型、运行和取消任务，并校验或回滚版本化配置。</p>
+      <p>
+        <a href="https://github.com/2648782102/pagurus/actions/workflows/ci.yml"><img src="https://github.com/2648782102/pagurus/actions/workflows/ci.yml/badge.svg?branch=main" alt="Pagurus CI"></a>
+        <a href="https://github.com/2648782102/pagurus/commits/main"><img src="https://img.shields.io/github/last-commit/2648782102/pagurus?style=flat-square&color=2f6f61&labelColor=163a35" alt="Pagurus last commit"></a>
+      </p>
+      <p><sub>Vite　·　Node.js 24+　·　Runtime API</sub></p>
+      <p><a href="https://github.com/2648782102/pagurus#readme">项目说明</a>　·　<a href="https://github.com/2648782102/pagurus/blob/main/docs/ARCHITECTURE.md">架构</a>　·　<a href="https://github.com/2648782102/pagurus/blob/main/docs/ROADMAP.md">路线图</a></p>
     </td>
   </tr>
 </table>
 
-## 技术栈
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="Vue">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/MCP-183B3A?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP">
-</p>
-
-## GitHub 活动
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/39756D/2648782102">
-  <img src="https://ghchart.rshah.org/6D9D91/2648782102" alt="GitHub 贡献记录" width="100%">
-</picture>
-
-<p align="center">
-  <a href="https://github.com/2648782102/conchbase"><img src="https://img.shields.io/github/last-commit/2648782102/conchbase?label=Conchbase&style=flat-square&color=6D9D91&labelColor=183B3A" alt="Conchbase 最近更新"></a>
-  <a href="https://github.com/2648782102/pagurus"><img src="https://img.shields.io/github/last-commit/2648782102/pagurus?label=Pagurus&style=flat-square&color=6D9D91&labelColor=183B3A" alt="Pagurus 最近更新"></a>
-</p>
-
 ---
 
-<p align="center">有想法或发现问题，欢迎到对应仓库开 Issue；已有改动也欢迎提交 Pull Request。</p>
+## 最近动态
+
+<p align="center">
+  <a href="https://github.com/2648782102/Doodle"><img src="https://img.shields.io/github/last-commit/2648782102/Doodle?branch=master&label=Doodle&style=flat-square&color=2f6f61&labelColor=163a35" alt="Doodle 最近更新"></a>
+  <a href="https://github.com/2648782102/conchbase"><img src="https://img.shields.io/github/last-commit/2648782102/conchbase?label=Conchbase&style=flat-square&color=2f6f61&labelColor=163a35" alt="Conchbase 最近更新"></a>
+  <a href="https://github.com/2648782102/pagurus"><img src="https://img.shields.io/github/last-commit/2648782102/pagurus?label=Pagurus&style=flat-square&color=2f6f61&labelColor=163a35" alt="Pagurus 最近更新"></a>
+</p>
+
+<p align="center">项目还在迭代，欢迎通过对应仓库的 Issue 反馈问题。</p>

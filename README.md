@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/profile-banner.png" alt="type_云 · 前端与 AI 开发工具" width="100%">
+  <img src="assets/profile-banner.svg" alt="type_云 · 前端与 AI 开发工具" width="100%">
 </div>
 
 ## 你好，我是 type_云
@@ -34,7 +34,7 @@
   <a href="https://github.com/2648782102/Doodle#readme">快速开始</a>　·　
   <a href="https://github.com/2648782102/Doodle/blob/master/docs/PRODUCT_DIRECTION.md">产品方向</a>　·　
   <a href="https://github.com/2648782102/Doodle/blob/master/docs/ARCHITECTURE.md">架构</a>　·　
-  <a href="https://github.com/2648782102/Doodle/releases/tag/v0.3.4">当前版本</a>
+  <a href="https://github.com/2648782102/Doodle/releases">版本记录</a>
 </p>
 
 ---

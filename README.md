@@ -1,77 +1,37 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="type_云 · 前端与 AI 开发工具" width="100%">
+  <img src="assets/profile-banner.svg" alt="flowli（type_云）· 前端与本地 AI 工具" width="100%">
 </div>
 
-## 你好，我是 type_云
+## flowli（type_云）
 
-做前端，也做 AI 开发工具。这里放三个正在维护的公开项目：一块给人和 AI 共用的画布、一个本地 Agent Runtime，以及它的控制台。
+做前端和本地 AI 工具。项目大多围绕可本地运行、可检查的交互：画布、验收报告、数据协议，以及中文古诗词前端。
 
-<p align="center">
-  <a href="https://2648782102.github.io/flowli-blog/">Blog</a>　·　
-  <a href="https://github.com/2648782102/Doodle">Doodle</a>　·　
-  <a href="https://github.com/2648782102/conchbase">Conchbase</a>　·　
-  <a href="https://github.com/2648782102/pagurus">Pagurus</a>
-</p>
+[Blog](https://2648782102.github.io/flowli-blog/) · [GitHub](https://github.com/2648782102?tab=repositories)
 
----
-
-## 正在做的项目
+## 精选项目
 
 ### [Doodle](https://github.com/2648782102/Doodle)
 
-一张人和 AI 共用的本地无限画布。人在画布上画对象、箭头和短留言；AI 通过 MCP 读取画布，再把便签、形状和回应画回同一张图。
+人和 AI 共用的本地无限画布。人在画布上画图、连线和留言，AI 通过 MCP 读取画布并把回应画回同一张图。
 
-<p align="center">
-  <a href="https://github.com/2648782102/Doodle/actions/workflows/ci.yml"><img src="https://github.com/2648782102/Doodle/actions/workflows/ci.yml/badge.svg?branch=master" alt="Doodle CI"></a>
-  <a href="https://github.com/2648782102/Doodle/releases">版本记录</a>　·　
-  <a href="https://github.com/2648782102/Doodle/blob/master/LICENSE">License</a>　·　
-  <a href="https://github.com/2648782102/Doodle/commits/master">提交记录</a>
-</p>
+[快速开始](https://github.com/2648782102/Doodle#readme) · [产品方向](https://github.com/2648782102/Doodle/blob/master/docs/PRODUCT_DIRECTION.md) · [架构](https://github.com/2648782102/Doodle/blob/master/docs/ARCHITECTURE.md) · [License](https://github.com/2648782102/Doodle/blob/master/LICENSE)
 
-<p align="center"><sub>TypeScript　·　MCP　·　本地运行</sub></p>
+<a href="https://github.com/2648782102/Doodle/actions/workflows/ci.yml"><img src="https://github.com/2648782102/Doodle/actions/workflows/ci.yml/badge.svg?branch=master" alt="Doodle CI"></a>
 
-<p align="center">
-  <a href="https://github.com/2648782102/Doodle#readme">快速开始</a>　·　
-  <a href="https://github.com/2648782102/Doodle/blob/master/docs/PRODUCT_DIRECTION.md">产品方向</a>　·　
-  <a href="https://github.com/2648782102/Doodle/blob/master/docs/ARCHITECTURE.md">架构</a>　·　
-  <a href="https://github.com/2648782102/Doodle/releases">版本记录</a>
-</p>
+### [Proofpack](https://github.com/2648782102/proofpack-cli)
 
----
+给 AI 辅助改动生成一份本地只读验收报告：记录 Git 能看到的变更、显式执行过的检查，以及还没检查的部分。提供 CLI 与 MCP，不替代码下「可以合并」的结论。
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/2648782102/conchbase">Conchbase</a></h3>
-      <p>本地 Agent Runtime：管理任务状态、流式事件、取消与重试，并通过版本化 API 给客户端使用。当前提供 v1 模型任务和 v2 有界组合执行。</p>
-      <p>
-        <a href="https://github.com/2648782102/conchbase/actions/workflows/ci.yml"><img src="https://github.com/2648782102/conchbase/actions/workflows/ci.yml/badge.svg?branch=main" alt="Conchbase CI"></a>
-        　·　<a href="https://github.com/2648782102/conchbase/commits/main">提交记录</a>
-      </p>
-      <p><sub>Node.js 24+　·　TypeScript　·　SQLite</sub></p>
-      <p><a href="https://github.com/2648782102/conchbase#readme">项目说明</a>　·　<a href="https://github.com/2648782102/conchbase/blob/main/docs/API.md">API</a>　·　<a href="https://github.com/2648782102/conchbase/blob/main/docs/ARCHITECTURE.md">架构</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/2648782102/pagurus">Pagurus</a></h3>
-      <p>Conchbase 的本地控制台。通过 Runtime API 查看连接状态、选择模型、运行和取消任务，并校验或回滚版本化配置。</p>
-      <p>
-        <a href="https://github.com/2648782102/pagurus/actions/workflows/ci.yml"><img src="https://github.com/2648782102/pagurus/actions/workflows/ci.yml/badge.svg?branch=main" alt="Pagurus CI"></a>
-        　·　<a href="https://github.com/2648782102/pagurus/commits/main">提交记录</a>
-      </p>
-      <p><sub>Vite　·　Node.js 24+　·　Runtime API</sub></p>
-      <p><a href="https://github.com/2648782102/pagurus#readme">项目说明</a>　·　<a href="https://github.com/2648782102/pagurus/blob/main/docs/ARCHITECTURE.md">架构</a>　·　<a href="https://github.com/2648782102/pagurus/blob/main/docs/ROADMAP.md">路线图</a></p>
-    </td>
-  </tr>
-</table>
+[README](https://github.com/2648782102/proofpack-cli#readme) · [MCP 协议](https://github.com/2648782102/proofpack-cli/blob/main/docs/MCP.md) · [发布记录](https://github.com/2648782102/proofpack-cli/releases)
 
----
+<a href="https://github.com/2648782102/proofpack-cli/actions/workflows/ci.yml"><img src="https://github.com/2648782102/proofpack-cli/actions/workflows/ci.yml/badge.svg?branch=main" alt="Proofpack CI"></a>
 
-## 最近动态
+### [LanZe](https://github.com/2648782102/LanZe)
 
-<p align="center">
-  <a href="https://github.com/2648782102/Doodle/actions/workflows/ci.yml">Doodle CI</a>　·　
-  <a href="https://github.com/2648782102/conchbase/actions/workflows/ci.yml">Conchbase CI</a>　·　
-  <a href="https://github.com/2648782102/pagurus/actions/workflows/ci.yml">Pagurus CI</a>
-</p>
+一个可本地运行的中文古诗词前端：Vue 3 + Vite，收录离线馆藏、读诗、检索、收藏、写作台与本地声景。始于 2022 年，2026 年整理为带文档、测试和 CI 的开源前端仓库。
 
-<p align="center">项目还在迭代，欢迎通过对应仓库的 Issue 反馈问题。</p>
+[静态预览](https://2648782102.github.io/LanZe/) · [快速开始](https://github.com/2648782102/LanZe#快速开始) · [设计系统](https://github.com/2648782102/LanZe/blob/main/docs/DESIGN_SYSTEM.md) · [FAQ](https://github.com/2648782102/LanZe/blob/main/docs/FAQ.md)
+
+<a href="https://github.com/2648782102/LanZe/actions/workflows/ci.yml"><img src="https://github.com/2648782102/LanZe/actions/workflows/ci.yml/badge.svg?branch=main" alt="LanZe CI"></a>
+
+也在维护 [Conchbase](https://github.com/2648782102/conchbase)（本地 Agent Runtime）和 [Pagurus](https://github.com/2648782102/pagurus)（对应控制台）。

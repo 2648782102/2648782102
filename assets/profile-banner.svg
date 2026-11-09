@@ -1,40 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="type_云 · 前端与 AI 开发工具">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="flowli（type_云）· 前端与本地 AI 工具">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0d1f1d"/>
-      <stop offset="1" stop-color="#173b35"/>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6f4ec"/>
+      <stop offset="1" stop-color="#e7efe9"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" x2="1">
-      <stop offset="0" stop-color="#7bd6b2"/>
-      <stop offset="1" stop-color="#d6e9c8"/>
-    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#cfdacf" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#203b34" flood-opacity=".12"/>
+    </filter>
   </defs>
-  <rect width="1200" height="240" rx="24" fill="url(#bg)"/>
-  <g fill="none" stroke="#284e47" stroke-width="1">
-    <path d="M0 60H1200M0 120H1200M0 180H1200M120 0V240M240 0V240M360 0V240M480 0V240M600 0V240M720 0V240M840 0V240M960 0V240M1080 0V240"/>
+  <rect width="1200" height="220" rx="22" fill="url(#paper)"/>
+  <rect x="0" y="0" width="1200" height="220" rx="22" fill="url(#grid)"/>
+  <rect x="0" y="0" width="9" height="220" rx="4" fill="#2c5f52"/>
+  <g transform="translate(78 46)">
+    <rect width="128" height="128" rx="18" fill="#ffffff" stroke="#9db8a9" stroke-width="1.5" filter="url(#soft)"/>
+    <path d="M26 92c26-8 38-62 70-64" fill="none" stroke="#2c5f52" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="27" cy="92" r="7" fill="#c58b53"/>
+    <circle cx="96" cy="28" r="7" fill="#2c5f52"/>
+    <rect x="24" y="104" width="80" height="4" rx="2" fill="#d5dfd8"/>
+    <rect x="24" y="114" width="52" height="4" rx="2" fill="#d5dfd8"/>
   </g>
-  <g transform="translate(72 52)">
-    <rect width="118" height="118" rx="22" fill="#163a35" stroke="#7bd6b2" stroke-width="2"/>
-    <circle cx="39" cy="39" r="9" fill="#d6e9c8"/>
-    <circle cx="79" cy="39" r="9" fill="#7bd6b2"/>
-    <rect x="28" y="68" width="62" height="8" rx="4" fill="#7bd6b2"/>
-    <rect x="28" y="86" width="42" height="8" rx="4" fill="#d6e9c8" opacity=".75"/>
-    <path d="M39 39L79 39L59 68" fill="none" stroke="#d6e9c8" stroke-width="3" stroke-linecap="round"/>
+  <text x="244" y="92" fill="#17342e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Helvetica,Arial,sans-serif" font-size="44" font-weight="650" letter-spacing="1">flowli（type_云）</text>
+  <text x="246" y="133" fill="#4c665d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Helvetica,Arial,sans-serif" font-size="22">前端 · 本地 AI 工具 · 可检查的项目</text>
+  <g transform="translate(246 158)">
+    <rect width="108" height="4" rx="2" fill="#2c5f52"/>
+    <rect x="120" width="48" height="4" rx="2" fill="#c58b53"/>
+    <rect x="180" width="24" height="4" rx="2" fill="#9db8a9"/>
   </g>
-  <text x="230" y="100" fill="#f3f7f1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Helvetica,Arial,sans-serif" font-size="52" font-weight="700">type_云</text>
-  <text x="232" y="142" fill="#a9c9bc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans CJK SC,Helvetica,Arial,sans-serif" font-size="22">前端 · AI 开发工具 · 本地优先</text>
-  <g transform="translate(232 166)">
-    <rect width="128" height="3" rx="1.5" fill="url(#line)"/>
-    <rect x="140" width="64" height="3" rx="1.5" fill="#7bd6b2" opacity=".5"/>
-    <rect x="216" width="24" height="3" rx="1.5" fill="#d6e9c8" opacity=".35"/>
-  </g>
-  <g fill="none" stroke="#7bd6b2" stroke-width="2" opacity=".85">
-    <path d="M904 42h188v156H904"/>
-    <path d="M944 82h108v76H944"/>
-    <path d="M944 82l108 76M1052 82l-108 76"/>
-  </g>
-  <g fill="#d6e9c8">
-    <circle cx="904" cy="42" r="5"/>
-    <circle cx="1092" cy="198" r="5"/>
+  <g transform="translate(900 42)" fill="none" stroke="#668b7c" stroke-width="2">
+    <rect x="0" y="0" width="216" height="136" rx="12" fill="#ffffff" fill-opacity=".72"/>
+    <path d="M0 38H216M54 38V136M118 38V136"/>
+    <path d="M16 66h24v46H16M70 54h32v58H70M134 74h66" stroke="#2c5f52" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="16" cy="66" r="5" fill="#c58b53" stroke="none"/>
+    <circle cx="200" cy="74" r="5" fill="#c58b53" stroke="none"/>
   </g>
 </svg>
